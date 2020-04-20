@@ -11,7 +11,7 @@
     "start:local": "ng serve -c local",
     "start:test": "ng serve -c test",
     "start:prod": "ng serve -c prod",
-    "dist": "ng build -c test --prod --base-href \"https://kovaldenys13.github.io/character-list-test/\"",
+    "dist": "ng build -c test --prod --base-href=/character-list-test/",
     "deploy": "ngh --dir dist/frontend"
   },
   "private": true,
