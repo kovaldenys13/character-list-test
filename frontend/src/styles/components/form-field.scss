@@ -1,0 +1,58 @@
+@import "variables";
+@import "medias";
+
+.form-field {
+  position: relative;
+
+  &__icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+    svg {
+      width: 20px;
+      height: 20px;
+      fill: $dark-comp-color;
+    }
+  }
+
+  &__control {
+    height: 30px;
+    border: 0;
+    background: $normal-comp-color;
+    box-shadow: 1px 3px 0 $accent-comp-color;
+
+    &--sm {
+      width: 130px;
+    }
+
+    &--md {
+      width: 200px;
+    }
+
+    &--lg {
+      width: 300px;
+    }
+
+    &::placeholder,
+    &--placeholder,
+    & option[value="0: null"] {
+      color: $light-font-color;
+    }
+
+    &--placeholder option {
+      color: black;
+    }
+  }
+}
+
+
+@include lessTablet {
+  .form-field {
+    width: 100%;
+    &__control {
+      width: 100%;
+    }
+  }
+}
+

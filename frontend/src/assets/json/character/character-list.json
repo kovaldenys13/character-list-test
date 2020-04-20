@@ -1,0 +1,184 @@
+[
+  {
+    "id": "04349f6c-823e-11ea-bc55-0242ac130003",
+    "name": "Han Solo",
+    "createdAt": "2020-12-10T16:49:14.582Z",
+    "birthBbyYear": 29,
+    "species": [
+      "Human",
+      "Rodian"
+    ],
+    "episodes": [
+      "A New Hope",
+      "The Empire Strikes Back",
+      "Return of the Jedi"
+    ],
+    "spaceships": [
+      {
+        "id": "04349f6c-823e",
+        "name": "Imperial shuttle",
+        "createdAt": "2020-12-15T13:04:47.235Z",
+        "passengerNumber": 20,
+        "crewSize": 6,
+        "length": 20,
+        "model": "Lambda-class T-4a shuttle"
+      },
+      {
+        "id": "04349f6c-8231",
+        "name": "Millennium Falcon",
+        "createdAt": "2020-12-10T16:59:45.094Z",
+        "passengerNumber": 6,
+        "crewSize": 4,
+        "length": 34.37,
+        "model": "YT-1300 light freighter"
+      }
+    ]
+  },
+  {
+    "id": "04349f6c-823e-11ea-bc55-0242ac130004",
+    "name": "Yoda",
+    "createdAt": "2020-12-15T12:26:01.042Z",
+    "birthBbyYear": 896,
+    "species": [
+      "Yoda's species"
+    ],
+    "episodes": [
+      "A New Hope",
+      "The Empire Strikes Back",
+      "Return of the Jedi",
+      "The Phantom Menace",
+      "Attack of the Clones",
+      "Revenge of the Sith"
+    ],
+    "spaceships": [
+      {
+        "id": "04349f6c-823e",
+        "name": "Imperial shuttle",
+        "createdAt": "2020-12-15T13:04:47.235Z",
+        "passengerNumber": 20,
+        "crewSize": 6,
+        "length": 20,
+        "model": "Lambda-class T-4a shuttle"
+      }
+    ]
+  },
+  {
+    "id": "04349f6c-823e-11ea-bc55-0242ac130005",
+    "name": "Darth Vader",
+    "createdAt": "2020-12-10T15:18:20.704Z",
+    "birthBbyYear": 41.9,
+    "species": [
+      "Human",
+      "Ewok"
+    ],
+    "episodes": [
+      "A New Hope",
+      "The Empire Strikes Back",
+      "The Phantom Menace",
+      "Attack of the Clones"
+    ],
+    "spaceships": [
+      {
+        "id": "04349f6c-8232",
+        "name": "Star Destroyer",
+        "createdAt": "2020-12-10T15:08:19.848Z",
+        "crewSize": 47060,
+        "length": 1600,
+        "model": "Imperial I-class Star Destroyer"
+      }
+    ]
+  },
+  {
+    "id": "04349f6c-823e-11ea-bc55-0242ac130006",
+    "name": "Obi-Wan Kenobi",
+    "createdAt": "2020-12-10T16:16:29.192Z",
+    "birthBbyYear": 57,
+    "species": [
+      "Human"
+    ],
+    "episodes": [
+      "A New Hope",
+      "The Empire Strikes Back",
+      "The Phantom Menace",
+      "Attack of the Clones"
+    ],
+    "spaceships": [
+      {
+        "id": "04349f6c-823e",
+        "name": "Imperial shuttle",
+        "createdAt": "2020-12-15T13:04:47.235Z",
+        "passengerNumber": 20,
+        "crewSize": 6,
+        "length": 20,
+        "model": "Lambda-class T-4a shuttle"
+      },
+      {
+        "id": "04349f6c-8231",
+        "name": "Millennium Falcon",
+        "createdAt": "2020-12-10T16:59:45.094Z",
+        "passengerNumber": 6,
+        "crewSize": 4,
+        "length": 34.37,
+        "model": "YT-1300 light freighter"
+      },
+      {
+        "id": "04349f6c-8233",
+        "name": "Sand Crawler",
+        "createdAt": "2020-12-10T15:36:25.724Z",
+        "passengerNumber": 30,
+        "crewSize": 46,
+        "length": 36.8,
+        "model": "Digger Crawler"
+      }
+    ]
+  },
+  {
+    "id": "04349f6c-823e-11ea-bc55-0242ac130007",
+    "name": "Luke Skywalker",
+    "createdAt": "2020-12-09T13:50:51.644Z",
+    "birthBbyYear": 19,
+    "species": [
+      "Human"
+    ],
+    "episodes": [
+      "A New Hope",
+      "Attack of the Clones"
+    ],
+    "spaceships": [
+      {
+        "id": "04349f6c-8233",
+        "name": "Sand Crawler",
+        "createdAt": "2020-12-10T15:36:25.724Z",
+        "passengerNumber": 30,
+        "crewSize": 46,
+        "length": 36.8,
+        "model": "Digger Crawler"
+      }
+    ]
+  },
+  {
+    "id": "04349f6c-823e-11ea-bc55-0242ac130008",
+    "name": "R2-D2",
+    "createdAt": "2020-12-10T15:11:50.376Z",
+    "birthBbyYear": 33,
+    "species": [
+      "Droid"
+    ],
+    "episodes": [
+      "A New Hope",
+      "The Empire Strikes Back",
+      "Return of the Jedi"
+    ],
+    "spaceships": [
+      {
+        "id": "04349f6c-8233",
+        "name": "Sand Crawler",
+        "createdAt": "2020-12-10T15:36:25.724Z",
+        "passengerNumber": 30,
+        "crewSize": 46,
+        "length": 36.8,
+        "model": "Digger Crawler"
+      }
+    ]
+  }
+]

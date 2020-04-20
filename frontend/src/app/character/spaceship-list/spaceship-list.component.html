@@ -1,0 +1,10 @@
+<div class="tiles">
+    <a *ngFor="let spaceship of spaceships; trackBy: trackByFn"
+       class="tiles__item">
+        <span>{{spaceship.model}}</span>
+        <br>
+        <span>Ship's length: {{spaceship.length}}</span>
+        <br>
+        <span>Crew size: {{spaceship.crewSize}}</span>
+    </a>
+</div>

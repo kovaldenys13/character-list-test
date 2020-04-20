@@ -1,0 +1,20 @@
+@import "variables";
+
+.message {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 300px);
+
+  &__item {
+    display: block;
+    padding: 5px 10px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    border-radius: 2px;
+
+    &--error {
+      color: #D8000C;
+      background-color: #FFBABA;
+    }
+  }
+}

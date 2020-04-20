@@ -1,0 +1,8 @@
+<h2>{{character.name}}</h2>
+<div *ngIf="character.birthBbyYear">Was born in {{character.birthBbyYear}} years BBY</div>
+<div>Species: {{species}}</div>
+<div>Episodes: {{episodes}}</div>
+<h4>Spaceships:</h4>
+<app-spaceship-list [spaceships]="character.spaceships">
+</app-spaceship-list>
+
