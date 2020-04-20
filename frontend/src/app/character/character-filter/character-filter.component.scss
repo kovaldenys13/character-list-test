@@ -1,0 +1,15 @@
+@import "variables";
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.form-field {
+  margin: 0 5px $md-padding;
+}
+
+.message {
+  padding-bottom: $md-padding;
+}

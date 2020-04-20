@@ -1,0 +1,39 @@
+@import "variables";
+@import "medias";
+
+.tooltip {
+  &:hover &__label {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  &__label {
+    font-size: $sm-font-size;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    visibility: hidden;
+    width: max-content;
+    min-width: 50px;
+    max-width: 300px;
+    margin-top: 8px;
+    padding: 5px 10px;
+    transition: opacity $transition;
+    transform: translateX(-50%);
+    text-align: center;
+    opacity: 0;
+    color: $accent-comp-color;
+    border-radius: 2px;
+    background-color: $dark-comp-color;
+  }
+}
+
+@include lessLaptop {
+  .tooltip {
+    &__label {
+      left: initial;
+      transform: translateX(-100%);
+    }
+  }
+}

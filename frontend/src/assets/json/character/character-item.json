@@ -1,0 +1,34 @@
+{
+  "id": "04349f6c-823e-11ea-bc55-0242ac130003",
+  "name": "Han Solo",
+  "createdAt": "2020-12-10T16:49:14.582Z",
+  "birthBbyYear": 29,
+  "species": [
+    "Human"
+  ],
+  "episodes": [
+    "A New Hope",
+    "The Empire Strikes Back",
+    "Return of the Jedi"
+  ],
+  "spaceships": [
+    {
+      "id": "04349f6c-823e",
+      "name": "Imperial shuttle",
+      "createdAt": "2020-12-15T13:04:47.235Z",
+      "passengerNumber": 20,
+      "crewSize": 6,
+      "length": 20,
+      "model": "Lambda-class T-4a shuttle"
+    },
+    {
+      "id": "04349f6c-8231",
+      "name": "Millennium Falcon",
+      "createdAt": "2020-12-10T16:59:45.094Z",
+      "passengerNumber": 6,
+      "crewSize": 4,
+      "length": 34.37,
+      "model": "YT-1300 light freighter"
+    }
+  ]
+}

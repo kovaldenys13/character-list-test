@@ -1,0 +1,60 @@
+<form class="form"
+      [formGroup]="form">
+
+    <div class="form-field">
+        <select class="form-field__control form-field__control--md"
+                formControlName="species">
+            <option [ngValue]="null">select a species</option>
+            <option *ngFor="let speciesItem of species"
+                    [value]="speciesItem">
+                {{speciesItem}}
+            </option>
+        </select>
+    </div>
+
+    <div class="form-field">
+        <select class="form-field__control form-field__control--lg"
+                formControlName="episode">
+            <option [ngValue]="null">select an episode</option>
+            <option *ngFor="let episode of episodes"
+                    [value]="episode">
+                {{episode}}
+            </option>
+        </select>
+    </div>
+
+    <div class="form-field">
+        <input class="form-field__control form-field__control--sm"
+               placeholder="birth from"
+               formControlName="birthFrom"
+               [patterns]="swTimePattern"
+               [mask]="swTimeMask">
+        <span class="form-field__icon"
+              appTooltip="possible values '99BBY' or '99ABY'">
+            <svg>
+                <use xlink:href="assets/icons/svg-sprite.svg#info"></use>
+            </svg>
+        </span>
+    </div>
+
+    <div class="form-field">
+        <input class="form-field__control form-field__control--sm"
+               placeholder="birth till"
+               formControlName="birthTill"
+               [patterns]="swTimePattern"
+               [mask]="swTimeMask">
+        <span class="form-field__icon"
+              appTooltip="possible values '99BBY' or '99ABY'">
+        <svg>
+            <use xlink:href="assets/icons/svg-sprite.svg#info"></use>
+        </svg>
+    </span>
+    </div>
+
+    <div *ngIf="this.form.invalid" class="message">
+        <span class="message__item message__item--error">
+            One of the dates is typed incorrectly. Please check the values.
+        </span>
+    </div>
+
+</form>

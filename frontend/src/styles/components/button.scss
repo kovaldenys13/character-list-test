@@ -1,0 +1,21 @@
+@import "variables";
+
+.__button {
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: transform $transition, box-shadow $transition;
+  color: $main-font-color;
+  border-radius: 0.25em;
+  background: $normal-comp-color;
+  box-shadow: 0 3px 0 $accent-comp-color;
+
+  &:hover:not(:active) {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 0 #c1ced7;
+  }
+
+  &:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 0 #d7e4ed;
+  }
+}

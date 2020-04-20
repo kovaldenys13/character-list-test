@@ -28,9 +28,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/styles/shared"
+              ]
+            }
           },
           "configurations": {
             "production": {
@@ -60,6 +65,22 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "local": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.local.ts"
+                }
+              ]
+            },
+            "test": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.test.ts"
+                }
+              ]
             }
           }
         },
@@ -71,6 +92,12 @@
           "configurations": {
             "production": {
               "browserTarget": "frontend:build:production"
+            },
+            "local": {
+              "browserTarget": "frontend:build:local"
+            },
+            "test": {
+              "browserTarget": "frontend:build:test"
             }
           }
         },
@@ -92,9 +119,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/styles/shared"
+              ]
+            }
           }
         },
         "lint": {
