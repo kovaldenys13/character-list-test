@@ -7,7 +7,12 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "start:local": "ng serve -c local",
+    "start:test": "ng serve -c test",
+    "start:prod": "ng serve -c prod",
+    "dist": "ng build -c test --prod --base-href \"https://kovaldenys13.github.io/character-list-test/\"",
+    "deploy": "ngh --dir dist/frontend"
   },
   "private": true,
   "dependencies": {
@@ -19,8 +24,14 @@
     "@angular/platform-browser": "~9.1.0",
     "@angular/platform-browser-dynamic": "~9.1.0",
     "@angular/router": "~9.1.0",
+    "@ngrx/effects": "^9.1.0",
+    "@ngrx/store": "^9.1.0",
+    "@ngrx/store-devtools": "^9.1.0",
+    "lodash": "4.17.15",
+    "ngx-mask": "9.0.1",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
+    "uri-templates": "^0.2.0",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
@@ -28,9 +39,11 @@
     "@angular/cli": "~9.1.0",
     "@angular/compiler-cli": "~9.1.0",
     "@angular/language-service": "~9.1.0",
-    "@types/node": "^12.11.1",
+    "@ngrx/schematics": "9.1.0",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^12.11.1",
+    "@types/uri-templates": "0.1.30",
     "codelyzer": "^5.1.2",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~4.2.1",

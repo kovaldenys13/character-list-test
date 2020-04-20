@@ -1,0 +1,5 @@
+@import "variables";
+
+.page-content__section:not(:last-child) {
+  padding-bottom: $md-padding;
+}

@@ -1,0 +1,29 @@
+@import "variables";
+@import "medias";
+
+.header {
+  text-align: center;
+  background: $sw-background;
+
+  &__title {
+    font-family: $sw-font-family;
+    font-size: $xlg-font-size;
+    font-weight: bold;
+    line-height: $md-line-height;
+    display: inline-block;
+    padding: $md-padding;
+    letter-spacing: $sw-letter-spacing;
+    text-transform: uppercase;
+    color: $lighten-font-color;
+  }
+
+}
+
+@include lessLaptop {
+  .header {
+    &__title {
+      font-size: $lg-font-size;
+    }
+  }
+}
+

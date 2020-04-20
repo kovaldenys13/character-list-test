@@ -1,0 +1,10 @@
+<div class="page-content">
+    <div class="page-content__section">
+        <app-character-filter (formChanged)="onFormChanged($event)">
+        </app-character-filter>
+    </div>
+    <div class="page-content__section">
+        <app-character-list [characters]="characters$ | async">
+        </app-character-list>
+    </div>
+</div>

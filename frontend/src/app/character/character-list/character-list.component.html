@@ -1,0 +1,9 @@
+<div class="tiles">
+    <a *ngFor="let character of characters; trackBy: trackByFn"
+       class="tiles__item"
+       [routerLink]="character.id">
+        <span>{{character.name}}</span>
+        <br>
+        <span>Birth {{character.birthBbyYear}} years BBY</span>
+    </a>
+</div>
